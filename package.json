@@ -1,20 +1,28 @@
 {
-  "name": "smartx",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "vue": "^3.3.8"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^4.5.0",
-    "typescript": "^5.2.2",
-    "vite": "^5.0.0",
-    "vue-tsc": "^1.8.22"
-  }
+    "name": "smartx",
+    "private": true,
+    "homepage": "https://github.com/buildwithlayer/smartx",
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc && vite build",
+        "preview": "vite preview",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
+    },
+    "dependencies": {
+        "@buildwithlayer/builder": "^0.0.7",
+        "@buildwithlayer/chat": "^0.0.7",
+        "@buildwithlayer/core": "^0.0.7",
+        "@types/node": "^20.10.1",
+        "gh-pages": "^6.1.0",
+        "vue": "^3.3.8"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^4.5.0",
+        "typescript": "^5.2.2",
+        "vite": "^5.0.0",
+        "vue-tsc": "^1.8.22"
+    }
 }
