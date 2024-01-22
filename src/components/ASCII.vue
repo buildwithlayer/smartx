@@ -68,6 +68,7 @@ layerCore.actions.registerCallback(
     white-space: pre-wrap;
     font-family: monospace;
     margin-top: 20px;
+    text-align: left;
 }
 </style>
 
