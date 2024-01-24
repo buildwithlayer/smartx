@@ -12,9 +12,9 @@
         "deploy": "gh-pages -d dist"
     },
     "dependencies": {
-        "@buildwithlayer/builder": "^1.0.23",
-        "@buildwithlayer/chat": "^1.0.23",
-        "@buildwithlayer/core": "^1.0.23",
+        "@buildwithlayer/builder": "^1.0.28",
+        "@buildwithlayer/chat": "^1.0.28",
+        "@buildwithlayer/core": "^1.0.28",
         "@types/node": "^20.10.1",
         "gh-pages": "^6.1.0",
         "vue": "^3.3.8"
